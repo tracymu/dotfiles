@@ -1,6 +1,6 @@
 [user]
-	name = Ben Askins
-	email = ben.askins@gmail.com
+	name = Tracy Mu Sung
+	email = tracy.musung@moomumedia.com
 [push]
 	default = simple
 [mergetool "Kaleidoscope"]
@@ -20,4 +20,4 @@
   pretty = %Cblue%h%Creset %Cgreen[%cr]%Creset (%an) %s
 
 [core]
-	excludesfile = /Users/benaskins/.gitignore_global
+	excludesfile = ~/.gitignore_global

@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:$PATH
+export PATH=~/bin:/usr/local/bin:$PATH
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
@@ -18,9 +18,6 @@ do
   export $DIR=$dev/$DIR
 done
 
-export EDITOR=vim
+export EDITOR=subl
 
-set -o vi
-
-chruby ruby-2.1
-
+chruby ruby-2.1.3
